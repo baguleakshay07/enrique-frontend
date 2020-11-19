@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.545" height="30" viewBox="0 0 26.545 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e92cc;
+      }
+    </style>
+  </defs>
+  <path id="litecoin" class="cls-1" d="M11.6,28.747H30.014l-1.04,3.909H6.514L9.756,20.4,3.469,22.689l1.219-4.608,6.288-2.286L14.453,2.656H18.5L15.455,14.165l6.431-2.338-1.219,4.608-6.431,2.338Zm0,0" transform="translate(-3.469 -2.656)"/>
+</svg>

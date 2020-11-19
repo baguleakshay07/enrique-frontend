@@ -1,0 +1,405 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="593.524" height="379.517" viewBox="0 0 593.524 379.517">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f2f1;
+      }
+
+      .cls-2 {
+        fill: #454c4a;
+      }
+
+      .cls-10, .cls-11, .cls-15, .cls-16, .cls-19, .cls-3, .cls-34, .cls-35, .cls-36, .cls-37, .cls-9 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #f9f9f9;
+      }
+
+      .cls-5 {
+        fill: #fdfefd;
+      }
+
+      .cls-19, .cls-5 {
+        stroke: #f5d800;
+      }
+
+      .cls-12, .cls-13, .cls-14, .cls-17, .cls-18, .cls-21, .cls-22, .cls-23, .cls-24, .cls-27, .cls-33, .cls-6, .cls-7 {
+        fill: #141e1d;
+      }
+
+      .cls-23, .cls-24, .cls-29, .cls-6 {
+        font-size: 13px;
+      }
+
+      .cls-12, .cls-13, .cls-14, .cls-23, .cls-25, .cls-27, .cls-6, .cls-7 {
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+      }
+
+      .cls-12, .cls-13, .cls-14, .cls-6, .cls-7 {
+        letter-spacing: 0.014em;
+      }
+
+      .cls-7 {
+        font-size: 7px;
+      }
+
+      .cls-14, .cls-21, .cls-23, .cls-7, .cls-8 {
+        opacity: 0.5;
+      }
+
+      .cls-10, .cls-11, .cls-15, .cls-16, .cls-9 {
+        stroke: #141e1d;
+        stroke-linecap: round;
+      }
+
+      .cls-10, .cls-16, .cls-9 {
+        stroke-linejoin: round;
+      }
+
+      .cls-10 {
+        stroke-width: 2px;
+      }
+
+      .cls-12, .cls-27 {
+        font-size: 16px;
+      }
+
+      .cls-13, .cls-14, .cls-17, .cls-22, .cls-28 {
+        font-size: 8px;
+      }
+
+      .cls-13, .cls-15, .cls-16, .cls-24 {
+        opacity: 0.8;
+      }
+
+      .cls-17, .cls-24, .cls-28 {
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-20, .cls-38 {
+        fill: #f5d800;
+      }
+
+      .cls-21 {
+        font-size: 6px;
+        font-family: Montserrat-Italic, Montserrat;
+        font-style: italic;
+      }
+
+      .cls-22, .cls-26 {
+        font-family: Montserrat-Light, Montserrat;
+        font-weight: 300;
+      }
+
+      .cls-23, .cls-24, .cls-27, .cls-29 {
+        letter-spacing: 0.013em;
+      }
+
+      .cls-25 {
+        font-size: 20px;
+        letter-spacing: 0.01em;
+      }
+
+      .cls-28 {
+        fill: rgba(20,30,29,0.5);
+        letter-spacing: 0.008em;
+      }
+
+      .cls-29, .cls-30 {
+        fill: rgba(245,216,0,0.5);
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-31, .cls-32, .cls-33, .cls-38 {
+        stroke: none;
+      }
+
+      .cls-32 {
+        fill: #fff;
+      }
+
+      .cls-35 {
+        clip-path: url(#clip);
+      }
+
+      .cls-36 {
+        clip-path: url(#clip-2);
+      }
+
+      .cls-37 {
+        clip-path: url(#clip-3);
+      }
+
+      .cls-39 {
+        filter: url(#Rectangle_400-3);
+      }
+
+      .cls-40 {
+        filter: url(#Rectangle_400-2);
+      }
+
+      .cls-41 {
+        filter: url(#Rectangle_400);
+      }
+    </style>
+    <filter id="Rectangle_400" x="61.988" y="64.984" width="165.463" height="105.422" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_400-2" x="229.451" y="64.984" width="165.463" height="105.422" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_400-3" x="396.914" y="64.984" width="165.463" height="105.422" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+    <clipPath id="clip-3">
+      <use xlink:href="#fill-3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1183" data-name="Group 1183" transform="translate(-217.012 -213.016)">
+    <g id="Group_1176" data-name="Group 1176">
+      <rect id="Rectangle_396" data-name="Rectangle 396" class="cls-1" width="569" height="354" rx="16" transform="translate(228 224)"/>
+      <g id="Subtraction_1" data-name="Subtraction 1" class="cls-2" transform="translate(2133 10586)">
+        <path class="cls-31" d="M -1900.050903320312 -10017.9677734375 C -1900.6748046875 -10019.576171875 -1900.99951171875 -10021.2998046875 -1900.99951171875 -10023.041015625 L -1900.99951171875 -10344 C -1900.99951171875 -10347.7392578125 -1899.543090820312 -10351.2548828125 -1896.898681640625 -10353.900390625 C -1894.254760742188 -10356.5439453125 -1890.738891601562 -10358 -1886.9990234375 -10358 L -1351.026245117188 -10358 C -1349.315673828125 -10358 -1347.621459960938 -10357.6865234375 -1346.037109375 -10357.083984375 C -1346.050903320312 -10357.083984375 -1346.064575195312 -10357.083984375 -1346.078369140625 -10357.083984375 L -1882.0537109375 -10357.083984375 C -1886.861694335938 -10357.083984375 -1891.38134765625 -10355.2119140625 -1894.780151367188 -10351.8115234375 C -1898.179443359375 -10348.4111328125 -1900.051635742188 -10343.890625 -1900.051635742188 -10339.0830078125 L -1900.051635742188 -10018.1240234375 C -1900.051635742188 -10018.0712890625 -1900.051391601562 -10018.01953125 -1900.050903320312 -10017.9677734375 Z"/>
+        <path class="cls-32" d="M -1895.536254882812 -10009.505859375 C -1897.777221679688 -10010.921875 -1899.648803710938 -10012.890625 -1900.94873046875 -10015.197265625 C -1902.290405273438 -10017.5791015625 -1902.99951171875 -10020.291015625 -1902.99951171875 -10023.041015625 L -1902.99951171875 -10344 C -1902.99951171875 -10348.2734375 -1901.335327148438 -10352.291015625 -1898.313232421875 -10355.314453125 C -1895.291137695312 -10358.3359375 -1891.273071289062 -10360 -1886.9990234375 -10360 L -1351.026245117188 -10360 C -1348.294311523438 -10360 -1345.597900390625 -10359.2998046875 -1343.228149414062 -10357.974609375 C -1340.930297851562 -10356.689453125 -1338.964477539062 -10354.8369140625 -1337.54345703125 -10352.619140625 C -1340.095092773438 -10354.2314453125 -1343.0458984375 -10355.083984375 -1346.078369140625 -10355.083984375 L -1882.0537109375 -10355.083984375 C -1886.327026367188 -10355.083984375 -1890.344360351562 -10353.419921875 -1893.36572265625 -10350.3974609375 C -1896.387451171875 -10347.375 -1898.051635742188 -10343.357421875 -1898.051635742188 -10339.0830078125 L -1898.051635742188 -10018.1240234375 C -1898.051635742188 -10015.056640625 -1897.181396484375 -10012.0771484375 -1895.534912109375 -10009.5078125 L -1895.536254882812 -10009.505859375 Z"/>
+      </g>
+      <g id="Subtraction_2" data-name="Subtraction 2" class="cls-3" transform="translate(798.536 580.533) rotate(180)">
+        <path class="cls-31" d="M7.447,355.517A15.989,15.989,0,0,1,0,341.994V16A16,16,0,0,1,16,0H555.991a15.987,15.987,0,0,1,13.533,7.46,15.951,15.951,0,0,0-8.55-2.474H20.983a16,16,0,0,0-16,16V346.98a15.953,15.953,0,0,0,2.465,8.536Z"/>
+        <path class="cls-33" d="M 7.447054386138916 355.5174255371094 C 5.210977554321289 354.1002197265625 3.343515872955322 352.1328125 2.046362161636353 349.8277282714844 C 0.7076698541641235 347.44873046875 5.444336056825705e-05 344.73974609375 5.444336056825705e-05 341.9938354492188 L 5.444336056825705e-05 16.00020408630371 C 5.444336056825705e-05 11.72628211975098 1.664439082145691 7.708204746246338 4.686593055725098 4.68620491027832 C 7.708592891693115 1.664281725883484 11.7265157699585 5.097844041301869e-05 16.00028610229492 5.097844041301869e-05 L 555.9912109375 5.097844041301869e-05 C 558.7398071289062 5.097844041301869e-05 561.4507446289062 0.708435595035553 563.830810546875 2.048666477203369 C 566.1386108398438 3.348127841949463 568.1072998046875 5.219281673431396 569.5240478515625 7.459743499755859 C 566.9701538085938 5.841897010803223 564.013916015625 4.986051082611084 560.9736938476562 4.986051082611084 L 20.98259353637695 4.986051082611084 C 16.70890045166016 4.986051082611084 12.69120788574219 6.65028190612793 9.669439315795898 9.672204971313477 C 6.647593021392822 12.69420528411865 4.983362197875977 16.71228218078613 4.983362197875977 20.98620414733887 L 4.983362197875977 346.979736328125 C 4.983362197875977 350.0126647949219 5.835746765136719 352.9644470214844 7.448439121246338 355.5160522460938 L 7.447054386138916 355.5174255371094 Z"/>
+      </g>
+    </g>
+    <path id="Path_1695" data-name="Path 1695" class="cls-4" d="M6,0H485a6,6,0,0,1,6,6V121a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" transform="translate(268 264)"/>
+    <rect id="Rectangle_398" data-name="Rectangle 398" class="cls-4" width="236" height="127" rx="6" transform="translate(267 414)"/>
+    <rect id="Rectangle_399" data-name="Rectangle 399" class="cls-4" width="236" height="127" rx="6" transform="translate(523 414)"/>
+    <g id="Group_1182" data-name="Group 1182">
+      <g id="Group_1178" data-name="Group 1178" transform="translate(-19 2)">
+        <g class="cls-41" transform="matrix(1, 0, 0, 1, 236.01, 211.02)">
+          <g id="Rectangle_400-4" data-name="Rectangle 400" class="cls-5" transform="translate(70.99 70.98)">
+            <rect class="cls-31" width="147.463" height="87.422" rx="4"/>
+            <rect class="cls-34" x="0.5" y="0.5" width="146.463" height="86.422" rx="3.5"/>
+          </g>
+        </g>
+        <text id="BTC" class="cls-6" transform="translate(315 303)"><tspan x="0" y="0">BTC</tspan></text>
+        <text id="Bitcoin_Wallet" data-name="Bitcoin Wallet" class="cls-7" transform="translate(315 318.148)"><tspan x="0" y="0">Bitcoin Wallet</tspan></text>
+        <text id="_0.5320" data-name="0.5320" class="cls-6" transform="translate(315 357.044)"><tspan x="0" y="0">0.5320</tspan></text>
+        <g id="QR_Code" data-name="QR Code" class="cls-8" transform="translate(421.207 337.163)">
+          <g id="Group_534" data-name="Group 534" transform="translate(3.092 3.092)">
+            <g id="Rectangle_335" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+            <g id="Rectangle_336" data-name="Rectangle 336" class="cls-9" transform="translate(3.33 3.33)">
+              <rect class="cls-31" width="1.903" height="1.903"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="0.903" height="0.903"/>
+            </g>
+          </g>
+          <g id="Group_535" data-name="Group 535" transform="translate(13.557 3.092)">
+            <g id="Rectangle_337" data-name="Rectangle 337" class="cls-10" transform="translate(3.33 3.33)">
+              <rect id="fill" class="cls-31" width="1.903" height="1.903"/>
+              <path class="cls-35" d="M0,0.9026771783828735h1.9026771783828735M1,0v1.9026771783828735M1.9026771783828735,1h-1.9026771783828735M0.9026771783828735,1.9026771783828735v-1.9026771783828735"/>
+            </g>
+            <g id="Rectangle_335-2" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+          </g>
+          <g id="Group_533" data-name="Group 533" transform="translate(3.092 13.081)">
+            <g id="Rectangle_338" data-name="Rectangle 338" class="cls-9" transform="translate(3.33 3.33)">
+              <rect class="cls-31" width="1.903" height="1.903"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="0.903" height="0.903"/>
+            </g>
+            <g id="Rectangle_335-3" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+          </g>
+          <g id="Rectangle_335-4" data-name="Rectangle 335" class="cls-9" transform="translate(15.428 14.952)">
+            <rect class="cls-31" width="4.376" height="4.376"/>
+            <rect class="cls-34" x="0.5" y="0.5" width="3.376" height="3.376"/>
+          </g>
+          <g id="Group_531" data-name="Group 531" transform="translate(0 0)">
+            <line id="Line_62" data-name="Line 62" class="cls-11" y1="4.376"/>
+            <line id="Line_63" data-name="Line 63" class="cls-11" x1="4.376"/>
+          </g>
+          <g id="Group_532" data-name="Group 532" transform="translate(20.359 19.883)">
+            <line id="Line_62-2" data-name="Line 62" class="cls-11" y2="4.376" transform="translate(4.376)"/>
+            <line id="Line_63-2" data-name="Line 63" class="cls-11" x2="4.376" transform="translate(0 4.376)"/>
+          </g>
+        </g>
+        <g id="Group_1177" data-name="Group 1177" transform="translate(436.102 295.287)">
+          <line id="Line_75" data-name="Line 75" class="cls-11" x2="10.362"/>
+          <line id="Line_76" data-name="Line 76" class="cls-11" x2="10.362" transform="translate(0 7.049)"/>
+          <line id="Line_77" data-name="Line 77" class="cls-11" x2="10.362" transform="translate(0 3.525)"/>
+        </g>
+      </g>
+      <g id="Group_1179" data-name="Group 1179" transform="translate(148.463 2)">
+        <g class="cls-40" transform="matrix(1, 0, 0, 1, 68.55, 211.02)">
+          <g id="Rectangle_400-5" data-name="Rectangle 400" class="cls-5" transform="translate(238.45 70.98)">
+            <rect class="cls-31" width="147.463" height="87.422" rx="4"/>
+            <rect class="cls-34" x="0.5" y="0.5" width="146.463" height="86.422" rx="3.5"/>
+          </g>
+        </g>
+        <text id="LTC" class="cls-6" transform="translate(315 303)"><tspan x="0" y="0">LTC</tspan></text>
+        <text id="Litecoin_Wallet" data-name="Litecoin Wallet" class="cls-7" transform="translate(315 318.148)"><tspan x="0" y="0">Litecoin Wallet</tspan></text>
+        <text id="_74.12" data-name="74.12" class="cls-6" transform="translate(315 357.044)"><tspan x="0" y="0">74.12</tspan></text>
+        <g id="QR_Code-2" data-name="QR Code" class="cls-8" transform="translate(421.207 337.163)">
+          <g id="Group_534-2" data-name="Group 534" transform="translate(3.092 3.092)">
+            <g id="Rectangle_335-5" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+            <g id="Rectangle_336-2" data-name="Rectangle 336" class="cls-9" transform="translate(3.33 3.33)">
+              <rect class="cls-31" width="1.903" height="1.903"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="0.903" height="0.903"/>
+            </g>
+          </g>
+          <g id="Group_535-2" data-name="Group 535" transform="translate(13.557 3.092)">
+            <g id="Rectangle_337-2" data-name="Rectangle 337" class="cls-10" transform="translate(3.33 3.33)">
+              <rect id="fill-2" class="cls-31" width="1.903" height="1.903"/>
+              <path class="cls-36" d="M0,0.9026771783828735h1.9026771783828735M1,0v1.9026771783828735M1.9026771783828735,1h-1.9026771783828735M0.9026771783828735,1.9026771783828735v-1.9026771783828735"/>
+            </g>
+            <g id="Rectangle_335-6" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+          </g>
+          <g id="Group_533-2" data-name="Group 533" transform="translate(3.092 13.081)">
+            <g id="Rectangle_338-2" data-name="Rectangle 338" class="cls-9" transform="translate(3.33 3.33)">
+              <rect class="cls-31" width="1.903" height="1.903"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="0.903" height="0.903"/>
+            </g>
+            <g id="Rectangle_335-7" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+          </g>
+          <g id="Rectangle_335-8" data-name="Rectangle 335" class="cls-9" transform="translate(15.428 14.952)">
+            <rect class="cls-31" width="4.376" height="4.376"/>
+            <rect class="cls-34" x="0.5" y="0.5" width="3.376" height="3.376"/>
+          </g>
+          <g id="Group_531-2" data-name="Group 531" transform="translate(0 0)">
+            <line id="Line_62-3" data-name="Line 62" class="cls-11" y1="4.376"/>
+            <line id="Line_63-3" data-name="Line 63" class="cls-11" x1="4.376"/>
+          </g>
+          <g id="Group_532-2" data-name="Group 532" transform="translate(20.359 19.883)">
+            <line id="Line_62-4" data-name="Line 62" class="cls-11" y2="4.376" transform="translate(4.376)"/>
+            <line id="Line_63-4" data-name="Line 63" class="cls-11" x2="4.376" transform="translate(0 4.376)"/>
+          </g>
+        </g>
+        <g id="Group_1177-2" data-name="Group 1177" transform="translate(436.102 295.287)">
+          <line id="Line_75-2" data-name="Line 75" class="cls-11" x2="10.362"/>
+          <line id="Line_76-2" data-name="Line 76" class="cls-11" x2="10.362" transform="translate(0 7.049)"/>
+          <line id="Line_77-2" data-name="Line 77" class="cls-11" x2="10.362" transform="translate(0 3.525)"/>
+        </g>
+      </g>
+      <g id="Group_1180" data-name="Group 1180" transform="translate(315.926 2)">
+        <g class="cls-39" transform="matrix(1, 0, 0, 1, -98.91, 211.02)">
+          <g id="Rectangle_400-6" data-name="Rectangle 400" class="cls-5" transform="translate(405.91 70.98)">
+            <rect class="cls-31" width="147.463" height="87.422" rx="4"/>
+            <rect class="cls-34" x="0.5" y="0.5" width="146.463" height="86.422" rx="3.5"/>
+          </g>
+        </g>
+        <text id="ETH" class="cls-6" transform="translate(315 303)"><tspan x="0" y="0">ETH</tspan></text>
+        <text id="Ethereum_Wallet" data-name="Ethereum Wallet" class="cls-7" transform="translate(315 318.148)"><tspan x="0" y="0">Ethereum Wallet</tspan></text>
+        <text id="_23.75" data-name="23.75" class="cls-6" transform="translate(315 357.044)"><tspan x="0" y="0">23.75</tspan></text>
+        <g id="QR_Code-3" data-name="QR Code" class="cls-8" transform="translate(421.207 337.163)">
+          <g id="Group_534-3" data-name="Group 534" transform="translate(3.092 3.092)">
+            <g id="Rectangle_335-9" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+            <g id="Rectangle_336-3" data-name="Rectangle 336" class="cls-9" transform="translate(3.33 3.33)">
+              <rect class="cls-31" width="1.903" height="1.903"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="0.903" height="0.903"/>
+            </g>
+          </g>
+          <g id="Group_535-3" data-name="Group 535" transform="translate(13.557 3.092)">
+            <g id="Rectangle_337-3" data-name="Rectangle 337" class="cls-10" transform="translate(3.33 3.33)">
+              <rect id="fill-3" class="cls-31" width="1.903" height="1.903"/>
+              <path class="cls-37" d="M0,0.9026771783828735h1.9026771783828735M1,0v1.9026771783828735M1.9026771783828735,1h-1.9026771783828735M0.9026771783828735,1.9026771783828735v-1.9026771783828735"/>
+            </g>
+            <g id="Rectangle_335-10" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+          </g>
+          <g id="Group_533-3" data-name="Group 533" transform="translate(3.092 13.081)">
+            <g id="Rectangle_338-3" data-name="Rectangle 338" class="cls-9" transform="translate(3.33 3.33)">
+              <rect class="cls-31" width="1.903" height="1.903"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="0.903" height="0.903"/>
+            </g>
+            <g id="Rectangle_335-11" data-name="Rectangle 335" class="cls-9">
+              <rect class="cls-31" width="8.562" height="8.562"/>
+              <rect class="cls-34" x="0.5" y="0.5" width="7.562" height="7.562"/>
+            </g>
+          </g>
+          <g id="Rectangle_335-12" data-name="Rectangle 335" class="cls-9" transform="translate(15.428 14.952)">
+            <rect class="cls-31" width="4.376" height="4.376"/>
+            <rect class="cls-34" x="0.5" y="0.5" width="3.376" height="3.376"/>
+          </g>
+          <g id="Group_531-3" data-name="Group 531" transform="translate(0 0)">
+            <line id="Line_62-5" data-name="Line 62" class="cls-11" y1="4.376"/>
+            <line id="Line_63-5" data-name="Line 63" class="cls-11" x1="4.376"/>
+          </g>
+          <g id="Group_532-3" data-name="Group 532" transform="translate(20.359 19.883)">
+            <line id="Line_62-6" data-name="Line 62" class="cls-11" y2="4.376" transform="translate(4.376)"/>
+            <line id="Line_63-6" data-name="Line 63" class="cls-11" x2="4.376" transform="translate(0 4.376)"/>
+          </g>
+        </g>
+        <g id="Group_1177-3" data-name="Group 1177" transform="translate(436.102 295.287)">
+          <line id="Line_75-3" data-name="Line 75" class="cls-11" x2="10.362"/>
+          <line id="Line_76-3" data-name="Line 76" class="cls-11" x2="10.362" transform="translate(0 7.049)"/>
+          <line id="Line_77-3" data-name="Line 77" class="cls-11" x2="10.362" transform="translate(0 3.525)"/>
+        </g>
+      </g>
+      <text id="BUY" class="cls-12" transform="translate(283 445)"><tspan x="0" y="0">BUY</tspan></text>
+      <text id="BTC-2" data-name="BTC" class="cls-13" transform="translate(283 461)"><tspan x="0" y="0">BTC</tspan></text>
+      <text id="LTC-2" data-name="LTC" class="cls-14" transform="translate(325 461)"><tspan x="0" y="0">LTC</tspan></text>
+      <text id="USD" class="cls-13" transform="translate(459 461)"><tspan x="0" y="0">USD</tspan></text>
+      <text id="ETH-2" data-name="ETH" class="cls-14" transform="translate(304 461)"><tspan x="0" y="0">ETH</tspan></text>
+      <line id="Line_78" data-name="Line 78" class="cls-15" x2="8" transform="translate(283.5 464.5)"/>
+      <path id="Union_3" data-name="Union 3" class="cls-16" d="M-1895.344-10360l-3.716,3.657Zm-7.656,0,3.714,3.656Z" transform="translate(2383.672 10816.671)"/>
+      <text id="_" data-name="$" class="cls-17" transform="translate(285 503)"><tspan x="0" y="0">$</tspan></text>
+      <path id="bitcoin" class="cls-18" d="M17.239,10v.744H16v5.949h1.239v.744h.5v-.744h.5v.744h.5V16.69a1.717,1.717,0,0,0,1.934-1.683A1.445,1.445,0,0,0,19.4,13.57v-.025a1.361,1.361,0,0,0,1.041-1.339c0-1.268-1.2-1.435-1.71-1.457V10h-.5v.744h-.5V10Zm-.669,1.215h1.958q1.339,0,1.339,1.115a.868.868,0,0,1-.322.719,1.143,1.143,0,0,1-.422.223,2.17,2.17,0,0,1-.6.075H16.57Zm0,2.627h1.958a1.976,1.976,0,0,1,1.165.3,1.006,1.006,0,0,1,.4.868,1.328,1.328,0,0,1-.124.6,1.244,1.244,0,0,1-.347.372,1.1,1.1,0,0,1-.5.2,4.116,4.116,0,0,1-.6.049H16.57Z" transform="translate(377.49 486.563)"/>
+      <g id="Rectangle_401" data-name="Rectangle 401" class="cls-19" transform="translate(292 493)">
+        <rect class="cls-31" width="85" height="14" rx="3"/>
+        <rect class="cls-34" x="0.5" y="0.5" width="84" height="13" rx="2.5"/>
+      </g>
+      <rect id="Rectangle_403" data-name="Rectangle 403" class="cls-20" width="205" height="16" rx="3" transform="translate(283 515)"/>
+      <g id="Path_1696" data-name="Path 1696" class="cls-3" transform="translate(400 493)">
+        <path class="cls-31" d="M3,0H83a3,3,0,0,1,3,3v8a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0Z"/>
+        <path class="cls-38" d="M 3 1 C 1.897201538085938 1 1 1.897199630737305 1 3 L 1 11 C 1 12.1028003692627 1.897201538085938 13 3 13 L 83 13 C 84.10279846191406 13 85 12.1028003692627 85 11 L 85 3 C 85 1.897199630737305 84.10279846191406 1 83 1 L 3 1 M 3 0 L 83 0 C 84.65684509277344 0 86 1.343141555786133 86 3 L 86 11 C 86 12.65685844421387 84.65684509277344 14 83 14 L 3 14 C 1.3431396484375 14 0 12.65685844421387 0 11 L 0 3 C 0 1.343141555786133 1.3431396484375 0 3 0 Z"/>
+      </g>
+      <text id="Spend" class="cls-21" transform="translate(300 502)"><tspan x="0" y="0">Spend</tspan></text>
+      <text id="Buy-2" data-name="Buy" class="cls-21" transform="translate(408 502)"><tspan x="0" y="0">Buy</tspan></text>
+      <text id="Complete_Purchase" data-name="Complete Purchase" class="cls-22" transform="translate(346 526)"><tspan x="0" y="0">Complete Purchase</tspan></text>
+      <g id="Group_1181" data-name="Group 1181" transform="translate(-2129 -10550)">
+        <text id="_-16_99_" data-name="-16,99%" class="cls-23" transform="translate(2671 11058.5)"><tspan x="0" y="0">-16,99%</tspan></text>
+        <text id="_-1_469.29_USD_since_last_week" data-name="-1,469.29 USD since last week" class="cls-24" transform="translate(2671 11024.5)"><tspan x="0" y="0">-1,469.29 USD</tspan><tspan class="cls-25" y="0"> </tspan><tspan class="cls-26" y="0">since last week</tspan></text>
+        <text id="_7_195.33" data-name="7,195.33" class="cls-27" transform="translate(2671 10993.5)"><tspan x="0" y="0">7,195.33</tspan></text>
+        <text id="Recalculation_in_59_seconds_" data-name="Recalculation in 59 seconds…" class="cls-28" transform="translate(2802 11075)"><tspan x="-62.983" y="0">Recalculation in</tspan><tspan class="cls-29" y="0" xml:space="preserve"> 59</tspan><tspan class="cls-30" y="0"> </tspan><tspan y="0">seconds…</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

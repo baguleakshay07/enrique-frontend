@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.69" height="49.734" viewBox="0 0 50.69 49.734">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #141e1d;
+        stroke-linecap: round;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="QR_Code" data-name="QR Code" transform="translate(0.5 0.5)">
+    <g id="Group_534" data-name="Group 534" transform="translate(6.211 6.211)">
+      <g id="Rectangle_335" data-name="Rectangle 335" class="cls-1">
+        <rect class="cls-3" width="17.2" height="17.2"/>
+        <rect class="cls-4" x="1" y="1" width="15.2" height="15.2"/>
+      </g>
+      <g id="Rectangle_336" data-name="Rectangle 336" class="cls-1" transform="translate(6.689 6.69)">
+        <rect class="cls-3" width="3.822" height="3.822"/>
+        <rect class="cls-4" x="1" y="1" width="1.822" height="1.822"/>
+      </g>
+    </g>
+    <g id="Group_535" data-name="Group 535" transform="translate(27.234 6.211)">
+      <g id="Rectangle_337" data-name="Rectangle 337" class="cls-1" transform="translate(6.689 6.69)">
+        <rect class="cls-3" width="3.822" height="3.822"/>
+        <rect class="cls-4" x="1" y="1" width="1.822" height="1.822"/>
+      </g>
+      <g id="Rectangle_335-2" data-name="Rectangle 335" class="cls-1">
+        <rect class="cls-3" width="17.2" height="17.2"/>
+        <rect class="cls-4" x="1" y="1" width="15.2" height="15.2"/>
+      </g>
+    </g>
+    <g id="Group_533" data-name="Group 533" transform="translate(6.211 26.279)">
+      <g id="Rectangle_338" data-name="Rectangle 338" class="cls-1" transform="translate(6.689 6.689)">
+        <rect class="cls-3" width="3.822" height="3.822"/>
+        <rect class="cls-4" x="1" y="1" width="1.822" height="1.822"/>
+      </g>
+      <g id="Rectangle_335-3" data-name="Rectangle 335" class="cls-1">
+        <rect class="cls-3" width="17.2" height="17.2"/>
+        <rect class="cls-4" x="1" y="1" width="15.2" height="15.2"/>
+      </g>
+    </g>
+    <g id="Rectangle_335-4" data-name="Rectangle 335" class="cls-1" transform="translate(30.992 30.037)">
+      <rect class="cls-3" width="8.791" height="8.791"/>
+      <rect class="cls-4" x="1" y="1" width="6.791" height="6.791"/>
+    </g>
+    <g id="Group_531" data-name="Group 531" transform="translate(0 0)">
+      <line id="Line_62" data-name="Line 62" class="cls-2" y1="8.791"/>
+      <line id="Line_63" data-name="Line 63" class="cls-2" x1="8.791"/>
+    </g>
+    <g id="Group_532" data-name="Group 532" transform="translate(40.899 39.943)">
+      <line id="Line_62-2" data-name="Line 62" class="cls-2" y2="8.791" transform="translate(8.791)"/>
+      <line id="Line_63-2" data-name="Line 63" class="cls-2" x2="8.791" transform="translate(0 8.791)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg px-0 d-none d-md-block">
+  <div class="container p-0">
+    <div class="brand-text cursor-pointer" routerLink="/" >
+      <img src="../../../assets/images/loyal-logo.svg" height="57" width="150">
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto menu-tabs">
+          <ng-container *ngIf="(currencyService.currentUser$|async)   as currentUser;else notAuthorized">
+            <li class="nav-item">
+              <a  routerLink="/dashboard"  >{{currentUser.firstname+ ' ' + currentUser.lastname}}</a>
+            </li>
+            <li class="nav-item">
+              <a >ENG</a>
+            </li>
+          </ng-container>
+        <ng-template #notAuthorized>
+            <li class="nav-item active">
+              <a  routerLink="/login" >Sign In</a>
+            </li>
+            <li class="nav-item register-tab">
+              <a  routerLink="/register">Register</a>
+            </li>
+            <li class="nav-item ">
+              <a >ENG</a>
+            </li>
+        </ng-template>
+      </ul>
+    </div>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg d-md-none px-4">
+  <div class="container p-0">
+    <span (click)="currencyService.leftSideNav=!currencyService.leftSideNav"><img src="../../../assets/images/menu.svg" ></span>
+    <span class="cursor-pointer" routerLink="/">
+        <img src="../../../assets/images/loyal-logo.svg" >
+      <h6 class="d-inline brand-mobile-title">Cronex</h6>
+     </span>
+    <span (click)="currencyService.rightSideNav=!currencyService.rightSideNav" class="position-relative" ><img src="../../../assets/images/user-circle.svg">
+      <span class="notify-mobile">0</span>
+    </span>
+  </div>
+</nav>

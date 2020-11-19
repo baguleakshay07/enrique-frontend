@@ -1,0 +1,44 @@
+.menu-tabs{
+  margin-left:137px;
+    li{
+      margin-left:25px;
+      padding:10px;
+    }
+  li.register-tab{
+    border: 1px solid #F5D800;
+    border-radius: 4px;
+    padding: 8px 16px;
+  }
+}
+
+.nav-item{
+  padding-right:20px;
+}
+
+/*.register-tab{
+  padding: 8px 14px;
+
+  border-radius: 4px;
+}*/
+
+.navbar{
+ border-bottom:2px solid #F5D800;
+ padding: 24px 0;
+}
+
+//ALL MEDIA QUERIES
+@media (max-width: 767px) {
+  .notify-mobile{
+    line-height:17px;
+    font-size: 8px;
+    text-align:center;
+    top:-7px;
+    right:-7px;
+    height:17px;
+    width:17px;
+    background:#E51B4E;
+    color:white;
+    border-radius: 10px;
+    position: absolute
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #141e1d;
+        font-size: 26px;
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+        letter-spacing: 0.024em;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="jpy" transform="translate(-1529 -1266)">
+    <text id="_" data-name="¥" class="cls-1" transform="translate(1545 1301)"><tspan x="0" y="0">¥</tspan></text>
+    <rect id="Rectangle_174" data-name="Rectangle 174" class="cls-2" width="51" height="51" transform="translate(1529 1266)"/>
+  </g>
+</svg>

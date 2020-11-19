@@ -1,0 +1,25 @@
+<svg id="Group_1144" data-name="Group 1144" xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #f5d800;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_142" data-name="Rectangle 142" class="cls-1" transform="matrix(0.998, 0.07, -0.07, 0.998, 30.349, 9.35)">
+    <rect class="cls-2" width="301.034" height="301.034" rx="16"/>
+    <rect class="cls-3" x="0.5" y="0.5" width="300.034" height="300.034" rx="15.5"/>
+  </g>
+  <g id="Rectangle_143" data-name="Rectangle 143" class="cls-1" transform="translate(41.896) rotate(8)">
+    <rect class="cls-2" width="301.034" height="301.034" rx="16"/>
+    <rect class="cls-3" x="0.5" y="0.5" width="300.034" height="300.034" rx="15.5"/>
+  </g>
+</svg>

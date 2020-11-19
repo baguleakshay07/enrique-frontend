@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-lg py-4 d-none d-md-block">
+  <div class="container p-0">
+    <div class="brand-text cursor-pointer" routerLink="/" >
+      <img src="../../../assets/images/loyal-logo.svg" class="img-fluid" height="57" width="125">
+    <!--  <h3 class="d-inline">Cronex</h3>-->
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto menu-tabs">
+        <li class="nav-item " routerLinkActive="active">
+          <a  routerLink="/dashboard" >Dashboard</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a  routerLink="/wallet">Wallet</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mr-auto menu-tabs">
+        <li class="nav-item" >
+          <h6 class="d-inline balance-color">Balance</h6>
+          <span class="mr-5 ml-2 balance" >
+            <ng-container *ngIf="btcBalance && btcBalance?.amount;else zeroBalance">
+                    <h6 class="d-inline" ><span class="font-16 font-semibold" >{{ btcBalance?.amount  }}</span></h6>
+                    <h6 class="d-inline pl-2 text-uppercase">usd</h6>
+             </ng-container>
+            <ng-template  #zeroBalance>
+               <h6 class="d-inline" ><span class="font-16 font-semibold" >00</span></h6>
+                    <h6 class="d-inline pl-2 text-uppercase">usd</h6>
+            </ng-template>
+        </span>
+        </li>
+        <!--<li class="nav-item" routerLinkActive="active">
+          <a  routerLink="/wallet">Wallet</a>
+        </li>-->
+      </ul>
+      <div>
+        <ng-container *ngIf="(currencyService.currentUser$ | async)   as currentUser;">
+          <div ngbDropdown #headerDropdown="ngbDropdown">
+            <button  class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle><h6  class="d-inline">{{currentUser.firstname+ ' ' + currentUser.lastname}}</h6>
+              <img class="mr-2" src="../../../assets/images/arrow-down.svg">  </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownConfig">
+              <button routerLinkActive="active"  ngbDropdownItem routerLink="/kyc">KYC</button>
+              <button routerLinkActive="active" ngbDropdownItem routerLink="/referrals">Refferals</button>
+              <button routerLinkActive="active" ngbDropdownItem routerLink="/activity">Activities</button>
+              <button routerLinkActive="active" ngbDropdownItem (click)="inviteLink()">Invitation</button>
+              <button routerLinkActive="active" ngbDropdownItem routerLink="/preferences" >Preferences</button>
+              <button routerLinkActive="active" ngbDropdownItem (click)="qrCode()">Mobile Access</button>
+              <button class="text-red" ngbDropdownItem  (click)="logout()">Log Out</button>
+              <img (click)="headerDropdown.close()" class="img-fluid close" src="../../../assets/images/close.png">
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg d-md-none px-4 ">
+  <div class="container p-0">
+    <span (click)="currencyService.leftSideNav=!currencyService.leftSideNav"><img src="../../../assets/images/menu.svg" ></span>
+    <span class="cursor-pointer" routerLink="/">
+        <img src="../../../assets/images/loyal-logo.svg" >
+      <h6 class="d-inline brand-mobile-title">Cronex</h6>
+     </span>
+    <span (click)="currencyService.rightSideNav=!currencyService.rightSideNav" class="position-relative" ><img src="../../../assets/images/user-circle.svg">
+      <span class="notify-mobile">0</span>
+    </span>
+  </div>
+</nav>

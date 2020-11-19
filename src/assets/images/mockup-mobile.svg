@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="392" height="736" viewBox="0 0 392 736">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: rgba(255,255,255,0.43);
+      }
+
+      .cls-5 {
+        fill: rgba(20,30,29,0.62);
+        opacity: 0.7;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #398013;
+      }
+
+      .cls-10, .cls-11, .cls-7 {
+        font-size: 24px;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.024em;
+      }
+
+      .cls-10, .cls-8 {
+        fill: #fdfefd;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 52px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-9 {
+        fill: #141e1d;
+        letter-spacing: 0.052em;
+      }
+
+      .cls-10, .cls-11 {
+        font-family: Montserrat-Light, Montserrat;
+        font-weight: 300;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.05em;
+      }
+
+      .cls-11 {
+        fill: #fff;
+        letter-spacing: 0.012em;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-13, .cls-14, .cls-16 {
+        fill: none;
+      }
+
+      .cls-13, .cls-14 {
+        stroke: #141e1d;
+        stroke-linecap: round;
+      }
+
+      .cls-13 {
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-15 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5d800" stop-opacity="0.702"/>
+      <stop offset="1" stop-color="#dbc200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a8adad"/>
+      <stop offset="1" stop-color="#727c7c"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_332" data-name="Rectangle 332" class="cls-1" width="392" height="736" rx="60"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a8adad"/>
+      <stop offset="1" stop-color="#141e1d" stop-opacity="0.447"/>
+    </linearGradient>
+  </defs>
+  <g id="mobile_mockup_" data-name="mobile mockup\" transform="translate(-7332 -7507)">
+    <rect id="Rectangle_327" data-name="Rectangle 327" class="cls-2" width="392" height="736" rx="60" transform="translate(7332 7507)"/>
+    <g id="Mask_Group_6" data-name="Mask Group 6" class="cls-3" transform="translate(7332 7507)">
+      <path id="Subtraction_4" data-name="Subtraction 4" class="cls-4" d="M22.514,722.852a60.236,60.236,0,0,1-16.4-20.438,59.684,59.684,0,0,1-4.524-12.641A60.317,60.317,0,0,1,0,676V60A59.719,59.719,0,0,1,10.247,26.454a60.176,60.176,0,0,1,26.4-21.738A59.624,59.624,0,0,1,60,0H332a60.031,60.031,0,0,1,48.841,25.143A59.742,59.742,0,0,0,343.363,12h-272A59.719,59.719,0,0,0,37.815,22.247a60.176,60.176,0,0,0-21.738,26.4A59.625,59.625,0,0,0,11.362,72V688A59.724,59.724,0,0,0,22.516,722.85Z" transform="translate(-0.947 -1)"/>
+      <path id="Subtraction_3" data-name="Subtraction 3" class="cls-5" d="M26.016,725.454l0,0a60.294,60.294,0,0,1-18.9-21.087A59.73,59.73,0,0,1,0,676V60A59.72,59.72,0,0,1,10.247,26.454a60.176,60.176,0,0,1,26.4-21.738A59.624,59.624,0,0,1,60,0H332a60.007,60.007,0,0,1,53.868,33.545A59.659,59.659,0,0,0,351.885,23h-272A59.719,59.719,0,0,0,46.338,33.247,60.174,60.174,0,0,0,24.6,59.645,59.625,59.625,0,0,0,19.885,83V699a60.31,60.31,0,0,0,1.593,13.8,59.666,59.666,0,0,0,4.537,12.656Z" transform="translate(397.807 744.132) rotate(180)"/>
+    </g>
+    <g id="Group_530" data-name="Group 530" transform="translate(7218.031 4991)">
+      <g id="padlock" transform="translate(141.969 2596)">
+        <g id="Group_527" data-name="Group 527" transform="translate(52)">
+          <g id="Group_526" data-name="Group 526">
+            <path id="Path_442" data-name="Path 442" class="cls-6" d="M69.672,9.547h-1.83V5.371a5.486,5.486,0,0,0-10.969,0V9.547H55.047A3.05,3.05,0,0,0,52,12.594V22.953A3.05,3.05,0,0,0,55.047,26H69.672a3.05,3.05,0,0,0,3.047-3.047V12.594A3.05,3.05,0,0,0,69.672,9.547ZM58.9,5.371a3.455,3.455,0,0,1,6.906,0V9.547H58.9ZM70.688,22.953a1.017,1.017,0,0,1-1.016,1.016H55.047a1.017,1.017,0,0,1-1.016-1.016V12.594a1.017,1.017,0,0,1,1.016-1.016H69.672a1.017,1.017,0,0,1,1.016,1.016Z" transform="translate(-52)"/>
+          </g>
+        </g>
+        <g id="Group_529" data-name="Group 529" transform="translate(60.48 14.523)">
+          <g id="Group_528" data-name="Group 528">
+            <path id="Path_443" data-name="Path 443" class="cls-6" d="M220.879,286a1.879,1.879,0,0,0-1.017,3.458v2.229a1.016,1.016,0,0,0,2.031,0V289.46a1.879,1.879,0,0,0-1.014-3.46Z" transform="translate(-219 -286)"/>
+          </g>
+        </g>
+      </g>
+      <text id="Secure" class="cls-7" transform="translate(223 2619)"><tspan x="0" y="0">Secure</tspan></text>
+    </g>
+    <text id="BTC" class="cls-8" transform="translate(7412 7797)"><tspan x="0" y="0">BTC</tspan></text>
+    <text id="_0.5395" data-name="0.5395" class="cls-9" transform="translate(7412 7914)"><tspan x="0" y="0">0.5395</tspan></text>
+    <text id="Bitcoin_Wallet" data-name="Bitcoin Wallet" class="cls-10" transform="translate(7412 7838)"><tspan x="0" y="0">Bitcoin Wallet</tspan></text>
+    <text id="BUY" class="cls-11" transform="translate(7412 7990)"><tspan x="0" y="0">BUY</tspan></text>
+    <text id="Send" class="cls-11" transform="translate(7412 8029)"><tspan x="0" y="0">SEND</tspan></text>
+    <text id="Receive" class="cls-11" transform="translate(7412 8068)"><tspan x="0" y="0">RECEIVE</tspan></text>
+    <path id="Path_444" data-name="Path 444" class="cls-12" d="M32,0A32,32,0,1,1,0,32,32,32,0,0,1,32,0Z" transform="matrix(0.94, -0.342, 0.342, 0.94, 7486.985, 8145.875)"/>
+    <g id="QR_Code" data-name="QR Code" transform="translate(7240.5 5035.5)">
+      <g id="Group_534" data-name="Group 534">
+        <g id="Rectangle_335" data-name="Rectangle 335" class="cls-13" transform="translate(178 2627)">
+          <rect class="cls-15" width="18" height="18"/>
+          <rect class="cls-16" x="1" y="1" width="16" height="16"/>
+        </g>
+        <g id="Rectangle_336" data-name="Rectangle 336" class="cls-13" transform="translate(185 2634)">
+          <rect class="cls-15" width="4" height="4"/>
+          <rect class="cls-16" x="1" y="1" width="2" height="2"/>
+        </g>
+      </g>
+      <g id="Group_535" data-name="Group 535">
+        <g id="Rectangle_337" data-name="Rectangle 337" class="cls-13" transform="translate(207 2634)">
+          <rect class="cls-15" width="4" height="4"/>
+          <rect class="cls-16" x="1" y="1" width="2" height="2"/>
+        </g>
+        <g id="Rectangle_335-2" data-name="Rectangle 335" class="cls-13" transform="translate(200 2627)">
+          <rect class="cls-15" width="18" height="18"/>
+          <rect class="cls-16" x="1" y="1" width="16" height="16"/>
+        </g>
+      </g>
+      <g id="Group_533" data-name="Group 533">
+        <g id="Rectangle_338" data-name="Rectangle 338" class="cls-13" transform="translate(185 2655)">
+          <rect class="cls-15" width="4" height="4"/>
+          <rect class="cls-16" x="1" y="1" width="2" height="2"/>
+        </g>
+        <g id="Rectangle_335-3" data-name="Rectangle 335" class="cls-13" transform="translate(178 2648)">
+          <rect class="cls-15" width="18" height="18"/>
+          <rect class="cls-16" x="1" y="1" width="16" height="16"/>
+        </g>
+      </g>
+      <g id="Rectangle_335-4" data-name="Rectangle 335" class="cls-13" transform="translate(203.933 2651.933)">
+        <rect class="cls-15" width="9.2" height="9.2"/>
+        <rect class="cls-16" x="1" y="1" width="7.2" height="7.2"/>
+      </g>
+      <g id="Group_531" data-name="Group 531" transform="translate(171.5 2620.5)">
+        <line id="Line_62" data-name="Line 62" class="cls-14" y1="9.2"/>
+        <line id="Line_63" data-name="Line 63" class="cls-14" x1="9.2"/>
+      </g>
+      <g id="Group_532" data-name="Group 532" transform="translate(214.3 2662.3)">
+        <line id="Line_62-2" data-name="Line 62" class="cls-14" y2="9.2" transform="translate(9.2)"/>
+        <line id="Line_63-2" data-name="Line 63" class="cls-14" x2="9.2" transform="translate(0 9.2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

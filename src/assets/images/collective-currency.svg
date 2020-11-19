@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356.136" height="86.234" viewBox="0 0 356.136 86.234">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #57b894;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #a8adad;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_613" data-name="Group 613" transform="translate(-106.973 -35.416)">
+    <ellipse id="Ellipse_76" data-name="Ellipse 76" class="cls-1" cx="10.5" cy="5.5" rx="10.5" ry="5.5" transform="translate(411.633 72.622)"/>
+    <path id="Path_687" data-name="Path 687" class="cls-2" d="M552.609,242.5q-35.055-13.239-70.109,0V213.847a121.343,121.343,0,0,1,70.109,0Z" transform="translate(-90.5 -145.646)"/>
+    <path id="Path_688" data-name="Path 688" class="cls-2" d="M549.1,238.808a69.377,69.377,0,0,0-50.6,0v-20.68a87.578,87.578,0,0,1,50.6,0Z" transform="translate(-96.746 -147.879)"/>
+    <ellipse id="Ellipse_77" data-name="Ellipse 77" class="cls-2" cx="10.5" cy="5.5" rx="10.5" ry="5.5" transform="translate(415.633 70.622)"/>
+    <ellipse id="Ellipse_78" data-name="Ellipse 78" class="cls-1" cx="10.364" cy="5.487" rx="10.364" ry="5.487" transform="matrix(0.98, -0.2, 0.2, 0.98, 269.475, 51.736)"/>
+    <path id="Path_689" data-name="Path 689" class="cls-2" d="M565.234,288.8q-36.994-5.962-68.693,14.02l-5.73-28.075a121.343,121.343,0,0,1,68.693-14.02Z" transform="translate(-242.022 -223.765)"/>
+    <path id="Path_690" data-name="Path 690" class="cls-2" d="M560.873,287.567a69.377,69.377,0,0,0-49.578,10.119l-4.136-20.262A87.577,87.577,0,0,1,556.737,267.3Z" transform="translate(-248.404 -226.389)"/>
+    <ellipse id="Ellipse_79" data-name="Ellipse 79" class="cls-2" cx="10.364" cy="5.487" rx="10.364" ry="5.487" transform="matrix(0.98, -0.2, 0.2, 0.98, 272.571, 48.615)"/>
+    <ellipse id="Ellipse_80" data-name="Ellipse 80" class="cls-1" cx="5.487" cy="10.364" rx="5.487" ry="10.364" transform="translate(129.03 103.895) rotate(-86.019)"/>
+    <path id="Path_691" data-name="Path 691" class="cls-2" d="M557.653,357.732q-34.051-15.641-69.94-4.867l1.989-28.584a121.343,121.343,0,0,1,69.94,4.867Z" transform="translate(-379.642 -237.595)"/>
+    <path id="Path_692" data-name="Path 692" class="cls-2" d="M554.827,353.423a69.378,69.378,0,0,0-50.478-3.513l1.436-20.63a87.577,87.577,0,0,1,50.478,3.513Z" transform="translate(-386.136 -239.874)"/>
+    <ellipse id="Ellipse_81" data-name="Ellipse 81" class="cls-2" cx="5.487" cy="10.364" rx="5.487" ry="10.364" transform="translate(132.849 101.716) rotate(-86.019)"/>
+  </g>
+</svg>

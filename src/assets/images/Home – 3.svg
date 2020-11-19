@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Home_3);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.777" cy="0.237" r="0.978" gradientTransform="matrix(-0.508, 0.861, -0.502, -0.296, 1.291, -0.362)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#dddde8"/>
+    </radialGradient>
+    <clipPath id="clip-Home_3">
+      <rect width="1440" height="900"/>
+    </clipPath>
+  </defs>
+  <g id="Home_3" data-name="Home – 3" class="cls-1">
+    <rect id="Rectangle_104" data-name="Rectangle 104" class="cls-2" width="1440" height="900"/>
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+<div class="h-100">
+  <div class="container-fluid text-center p-0 h-100">
+    <div class="row m-0 h-100">
+      <div class="col-md-4 offset-2 p-0 my-auto">
+        <div class="container-fluid my-auto auth-box">
+          <div class="login-block h-100">
+            <div class="auth-container h-100 container-fluid">
+              <div class="row h-100">
+                <div class="col-12   p-0      ml-md-auto m-auto " >
+                  <div class="col-xl-10 col-lg-12 mx-auto  mx-auto">
+                    <h1 class="title font-semibold ">Sign Up</h1>
+                    <h6 class="my-4">Already have an account? <a class="font-semibold highlight-text" routerLink="/">SIGN IN</a></h6>
+                      <span *ngIf="registerationSuccess" class="label label-success text-green">
+                           <small class="text-green"  translate>Registeration was Successfull..Please Sign In</small>
+                      </span>
+                    <!--<h4 class="my-4">Sign Up</h4>-->
+                    <span *ngIf="genericError" class="label label-danger">
+                    <small class="error-response"  translate>Something Went Wrong..Please try Again</small>
+                  </span>
+                    <span *ngIf="registrationErr" class="label label-danger">
+                      <h6> <small class="error-response" *ngIf="!ip" translate>{{registrationErr}}</small>
+                        <small class="warning-response" *ngIf="ip" translate>{{registrationErr}}</small>
+                      </h6>
+                    </span>
+                    <form #f="ngForm"  (ngSubmit)="f.form.valid && signup(f.form)">
+                      <div class="col-md-12 mx-auto px-0 text-left">
+                        <div class="row m-0">
+                          <div class="form-group col-6 p-0 pr-2 has-float-label">
+                            <input type="text" class="inputText form-control p-2" #firstname="ngModel" id="firstname"
+                                   [(ngModel)]="registrationModel.firstname" name="firstname" autocomplete="off" placeholder=" "
+                                   required/>
+                            <label for="firstname"> {{'auth.First name' | translate}}</label>
+                            <span *ngFor="let error of errorMessages.name">
+                              <ng-container *ngIf="firstname.hasError(error.type) && (firstname.dirty || firstname.touched)">
+                                <small class="error-message text-red text-left w-100">{{error.message}}</small>
+                              </ng-container>
+                            </span>
+                          </div>
+                          <div class="form-group has-float-label col-6 p-0 pr-2">
+
+                            <input type="text" class="inputText form-control p-2" autocomplete="off" id="lastname"
+                                   #lastname="ngModel" [(ngModel)]="registrationModel.lastname" name="lastname"  placeholder=" "
+                                   required/>
+                            <label for="lastname"> {{'auth.Last name' | translate}}</label>
+                            <span *ngFor="let error of errorMessages.name">
+                            <ng-container *ngIf="lastname.hasError(error.type) && (lastname.dirty || firstname.touched)">
+                              <small class="error-message text-red text-left w-100" >{{error.message}}</small>
+                            </ng-container>
+                          </span>
+                          </div>
+
+                        </div>
+                        <div class="form-group has-float-label">
+                          <input type="email" id="email"
+                                   class="form-control inputText" [(ngModel)]="registrationModel.email" name="email"
+                                  #email="ngModel" autocomplete="off" placeholder=" " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                                  email required/>
+                          <label for="email">{{'auth.Email' | translate}}</label>
+                          <span *ngFor="let error of errorMessages.email">
+                              <ng-container *ngIf="email.hasError(error.type) && (email.dirty || email.touched)">
+                                  <small class="error-message text-red text-left w-100" >{{error.message}}</small>
+                              </ng-container>
+                          </span>
+                        </div>
+                        <!--<div *ngFor="let error of errorMessages.email">
+                          <ng-container *ngIf="email.hasError(error.type) && (email.dirty || email.touched)">
+                            <small class="error-message">{{error.message}}</small>
+                          </ng-container>
+                        </div>-->
+                        <div class="form-group has-float-label">
+                          <input  id="password" #password="ngModel" [(ngModel)]="registrationModel.password"
+                                  type="password" class="form-control inputText"  name="password" autocomplete="off" placeholder=" "
+                                   required/>
+                          <label for="password">{{'auth.Password' | translate}}</label>
+                        </div>
+                        <div class="form-group has-float-label">
+                          <input  id="rpassword" #rpassword="ngModel" [(ngModel)]="registrationModel.rpassword"
+                                  type="password" class="form-control inputText"  name="rpassword" autocomplete="off" placeholder=" " (keyup)="checkPassword($event)"
+                                   required/>
+                          <label for="rpassword">{{'auth.CPassword' | translate}}</label>
+                          <small  class="error-message text-red text-left w-100" *ngIf="passwordMatch">Password doesn't match</small>
+                        </div>
+                        <div class="form-group has-float-label">
+                          <input  id="contact" #phone="ngModel" [(ngModel)]="registrationModel.phone" required pattern="[5789][0-9]{9}"
+                                  type="number" class="form-control inputText"  name="contact" autocomplete="off" placeholder=" "/>
+                          <label for="contact">Phone Number</label>
+                          <span *ngFor="let error of errorMessages.phone">
+                              <ng-container *ngIf="phone.hasError(error.type) && (phone.dirty || phone.touched)">
+                                  <small class="error-message text-red text-left w-100" >{{error.message}}</small>
+                              </ng-container>
+                          </span>
+                        </div>
+                        <div class="form-group has-float-label">
+                          <input  id="tpassword" #tpassword="ngModel" [(ngModel)]="registrationModel.tpassword" required
+                                  type="text" class="form-control inputText"  name="tpassword" autocomplete="off" placeholder=" "/>
+                          <label for="tpassword">Transaction Password</label>
+                        </div>
+                        <div class="form-group has-float-label">
+                          <input  id="referral" #referral="ngModel" [(ngModel)]="registrationModel.referral"
+                                  type="text" class="form-control inputText"  name="referral" autocomplete="off" placeholder=" "/>
+                          <label for="referral">{{'auth.referral' | translate}}</label>
+                        </div>
+                        <div class="form-group has-float-label text-white ">
+                          <input type="checkbox" class="mr-2" checked="checked" name="agree" [(ngModel)]="registrationModel.agree" #agreerequired>
+                          <!--<p>-->I  agree  the Terms and Conditions<!--</p>-->
+                         <!-- <label class="checkbox-container">
+                            I Consent
+                            <a routerLink="/subfooter/termsofuser">Terms</a>
+                            <input type="checkbox" checked="checked" name="agree" [(ngModel)]="registrationModel.agree" #agreerequired>
+                            <span class="checkmark"></span>
+                          </label>-->
+                        </div>
+                      </div>
+                      <div class="col-12 p-0 text-center align-content-center my-3">
+                        <re-captcha class="recaptcha-center d-inline-block" [(ngModel)]="captcha" name="captcha" required #captchaControl="ngModel"></re-captcha>
+                      </div>
+                      <div class="col-12 p-0">
+                        <button [disabled]="f.form.invalid" type="submit" class="btn btn-primary w-100 text-uppercase">
+                          <ng-container *ngIf="loading;else showTemplate">
+                            Loading <img  class="mx-1"   height="23" width="23" src="../../../assets/images/ajax-loader.svg">
+                          </ng-container>
+                          <ng-template #showTemplate>
+                            Sign up
+                          </ng-template>
+                          </button>
+                      </div>
+                      <p class="mt-3 text-center">
+                        By proceeding with registration, I accept the <a class="highlight-text">Terms of Use</a> and the conditions of the <a class="highlight-text">Privacy Policy</a>.
+                      </p>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+

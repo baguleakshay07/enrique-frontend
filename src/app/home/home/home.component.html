@@ -1,0 +1,3 @@
+<ng-container *ngIf="(currencyService.currentUser$ | async)   as currentUser;">
+  <h1>Hello {{currentUser.firstname+ ' ' + currentUser.lastname}}</h1>
+</ng-container>

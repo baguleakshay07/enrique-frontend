@@ -1,0 +1,117 @@
+<div class="sidebar-wrapper" *ngIf="currencyService.leftSideNav">
+  <img class="img-fluid sidebar-close" (click)="currencyService.leftSideNav = false" src="../../../assets/images/close-button11.svg" >
+  <ul class="sidebar-nav pl-3 pt-4" id="sidebar">
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+       <!-- <span><img src="/assets/images/left-sidebar/dashboard.png"></span>-->
+        <span class="side-text">Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLink]="['/wallet']">
+      <!--  <span> <img src="/assets/images/left-sidebar/ico.png"></span>-->
+        <span class="side-text"> Wallet </span></a>
+    </li>
+  </ul>
+  <ul class="sidebar-nav pl-3 pt-4 balance-section" id="sidebar1">
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <h6 class="d-inline balance-color">Balance</h6>
+        <span class="ml-2 balance" >
+            <h6 class="d-inline"><span class="font-16 font-semibold">16</span> , 900</h6>
+           <h6 class="d-inline pl-2">BTC</h6>
+        </span>
+        <!-- <span><img src="/assets/images/left-sidebar/dashboard.png"></span>-->
+      <!--  <span class="side-text">Balance</span>-->
+      </a>
+
+    </li>
+  </ul>
+  <ul class="sidebar-nav pl-3 pt-4" >
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Company</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Crontech.io</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Get in Touch</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="sidebar-nav pl-3 pt-4 " >
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Support</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">FAQs</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">What is Bitcoin?</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">How to buy crypto?</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">How to exchange crypto?</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="sidebar-nav pl-3  " >
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Legal Issues</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Terms of Use</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">AML Policy</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Privacy Policy</span>
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Free Schedule</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="sidebar-nav pl-3 pt-4 " >
+    <li>
+      <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/dashboard']">
+        <span class="side-text">Social</span>
+      </a>
+    </li>
+    <li>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">  <img src="../../../assets/images/social/linkedin.svg"></a></li>
+        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">  <img src="../../../assets/images/social/behance.svg"></a></li>
+        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">  <img src="../../../assets/images/social/telegram.svg"></a></li>
+        <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#">  <img src="../../../assets/images/social/whatsapp.svg"></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+

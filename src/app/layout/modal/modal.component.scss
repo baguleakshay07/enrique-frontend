@@ -1,0 +1,21 @@
+.modal-content{
+  background: transparent;
+
+}
+.modal-header .close{
+  margin: -1rem auto -1rem -2rem;
+  font-size: 42px;
+  text-shadow: unset;
+  opacity: 1;
+  padding: 0;
+}
+.modal-header{
+  border-bottom:0;
+}
+.modal-header .close span{
+  color: #3E92CC;
+}
+.copied-btn-color{
+  background:#F5D800;
+  color:#ffffff;
+}
